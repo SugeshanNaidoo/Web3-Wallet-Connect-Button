@@ -1,0 +1,69 @@
+body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        /* Style for the Connect button */
+        #connectButton {
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            background-color: #000; /* Black background */
+            color: #fff; /* White text */
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        /* Style for the modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 40px; /* Increase padding for a larger modal */
+            width: 400px; /* Set width */
+            height: 300px; /* Set height */
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 1;
+            text-align: center;
+            border-radius: 15px; /*Add border-radius for rounded corners*/
+        }
+
+        /* Style for the Proceed button */
+        .proceed-button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 15px;
+            background-color: #4CAF50; /* Green background */
+            color: #fff; /* White text */
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        /* Style for the image container */
+        .image-container {
+            width: 100px; /* Set the width of the container */
+            height: 100px; /* Set the height of the container */
+            overflow: hidden;
+            border-radius: 50%; /* Make it a circle */
+            margin: 20px auto; /* Adjust margin for centering */
+        }
+
+        /* Style for the image */
+        .image-container img {
+            width: 100%; /* Make the image fill the container */
+            border-radius: 50%; /* Ensure the image stays circular */
+        }
+
+        /* Style for the Thank You message */
+        .thank-you {
+            font-size: 24px; /* Set the font size for the "Thank You" message */
+            margin-top: 10px; /* Add some space between the image and "Thank You" */
+        }
